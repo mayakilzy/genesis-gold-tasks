@@ -1,0 +1,10 @@
+{
+  "name": "flaky-orders",
+  "version": "0.1.0",
+  "description": "Order service over an in-memory inventory (diagnostic training case).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}

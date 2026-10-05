@@ -1,0 +1,16 @@
+{
+  "name": "tabloid",
+  "version": "0.1.0",
+  "description": "A tiny markdown table toolkit: escape, align, render.",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

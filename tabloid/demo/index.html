@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>tabloid demo</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 3rem; }
+      pre { background: #f4f4f4; padding: 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>aligned markdown tables</h1>
+    <p>Rendered live from the built tabloid bundle:</p>
+    <pre id="out">not rendered</pre>
+    <script type="module">
+      import { renderTable } from '../dist/index.js';
+      const table = renderTable(
+        ['item', 'qty', 'price'],
+        [
+          ['nut', '4', '0.25'],
+          ['bolt | large', '2', '1.10'],
+        ],
+        [':---', ':---:', '---:'],
+      );
+      document.getElementById('out').textContent = table;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+# flaky-orders — incident evidence bundle
+# Captured 2026-10-05T19:15:35Z by running the real suite 15 times.
+# Environment: node v24.21.0, linux x64
+
+=== run 1: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (135.725943ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (135.725943ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 9,
+
+=== run 2: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (133.645969ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (133.645969ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 9,
+
+=== run 3: PASS ===
+(suite green this time)
+
+=== run 4: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (123.628652ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (123.628652ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 10,
+    expected: 8,
+
+=== run 5: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (151.602706ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (151.602706ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 9,
+
+=== run 6: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (142.645254ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (142.645254ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 11,
+    expected: 8,
+
+=== run 7: PASS ===
+(suite green this time)
+
+=== run 8: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (151.95654ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (151.95654ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 10,
+    expected: 8,
+
+=== run 9: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (135.945226ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (135.945226ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 10,
+    expected: 8,
+
+=== run 10: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (151.438066ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (151.438066ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 10,
+    expected: 8,
+
+=== run 11: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (145.347879ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (145.347879ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 9,
+
+=== run 12: PASS ===
+(suite green this time)
+
+=== run 13: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (125.568574ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (125.568574ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 9,
+
+=== run 14: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (149.33049ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (149.33049ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 10,
+    expected: 8,
+
+=== run 15: FAIL ===
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+ORDER REJECTED: insufficient stock for widget (requested 1)
+✖ a concurrent batch never oversells the available stock (134.469598ms)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+ORDER REJECTED: insufficient stock for gear (requested 1)
+✖ failing tests:
+test at test/orders.test.mjs:9:1
+✖ a concurrent batch never oversells the available stock (134.469598ms)
+  AssertionError [ERR_ASSERTION]: exactly the available stock may be accepted
+      at TestContext.<anonymous> (file:///home/z/my-project/genesis-gold/genesis-gold-tasks/flaky-orders/test/orders.test.mjs:15:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    actual: 9,
+
